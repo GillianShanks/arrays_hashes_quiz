@@ -25,13 +25,13 @@ united_kingdom << {name: "Northern Ireland", population: 1811000, capital: "Belf
 # p united_kingdom
 
 # 3. Use a loop to print the names of all the countries in the UK.
-for country_array in united_kingdom
-  p country_array[:name]
+for country_hash in united_kingdom
+  p country_hash[:name]
 end
 
 # 4. Use a loop to find the total population of the UK.
 total_population = 0
-for country_array in united_kingdom
-  total_population += country_array[:population]
+for country_hash in united_kingdom
+  total_population += country_hash[:population]
 end
 p total_population
