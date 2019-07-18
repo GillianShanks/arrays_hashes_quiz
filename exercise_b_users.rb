@@ -72,6 +72,8 @@ p users["Avril"][:pets][0][:species]
 eriks_lottery_sorted= eriks_lotto.sort()
 p eriks_lottery_sorted[0]
 
+p eriks_lotto.min()
+
 # 6. Return an array of Avril's lottery numbers that are even
 avrils_lottery_array = users["Avril"][:lottery_numbers]
 avrils_even_numbers = []
